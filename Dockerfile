@@ -28,7 +28,7 @@ RUN R -e "remotes::install_github("rstudio-education/gradethis")"
 
 # copy the app to the image
 RUN mkdir /root/learnR
-COPY euler /root/learnR
+COPY ch1 /root/learnR
 
 COPY Rprofile.site /usr/lib/R/etc/
 
